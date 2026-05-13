@@ -6,15 +6,10 @@
 #include <memory>
 #include <SFML/Audio.hpp>
 #include "Entity.h"
-#include "Enemy.h" // You will create this next
+#include "Enemy.h" 
 #include "Tower.h"
-#include "Map.h"// You will create this next
+#include "Map.h"
 
-/**
- * @class Game
- * @brief Main controller class for the Tower Defense game.
- * Requirement 4.3: Graphical Interface management.
- */
 class Game {
 private:
     sf::Music bgMusic;
